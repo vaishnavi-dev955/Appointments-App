@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.appoint {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.heading1 {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.para1 {
+  color: #b5b7c4;
+  font-size: 17px;
+  font-family: 'Roboto';
+  padding-top: 10px;
+}
+
+.img-style2 {
+  margin-top: 5px;
+  padding-top: 0px;
+  margin-left: 10px;
+}
+
+.button {
+  background-color: #ffffff;
+  border-style: none;
+}
+
+.list-item {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #b5b7c4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+
+.Horizontal-container {
+  display: flex;
+}

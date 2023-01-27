@@ -1,0 +1,123 @@
+/* Write your CSS here */
+.white-background {
+  background-color: #ffffff;
+  margin: 30px;
+  border-radius: 20px;
+  height: 80vh;
+  width: 80vw;
+}
+
+.linear-background {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-top: 10px;
+}
+.form-container {
+  background-color: #ffffff;
+  height: 280px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.input-style {
+  background-color: transparent;
+  border-color: #7b8794;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  width: 280px;
+  margin-top: 8px;
+}
+
+.label-style {
+  color: #b5b7c4;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 8px;
+}
+
+.img-style {
+  height: 280px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.Add-button {
+  background-color: #8b5cf6;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.horizontal-style {
+  display: flex;
+  justify-content: space-around;
+}
+
+.line-style {
+  width: 70vw;
+  width: 4px;
+  padding-top: 15px;
+}
+
+.paragraph {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 200px;
+}
+
+.starred-button {
+  color: #9897f0;
+  background-color: #ffffff;
+  height: 30px;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #8b5cf6;
+  border-width: 2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+.horizontal-style2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lists-container {
+  list-style-type: none;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
